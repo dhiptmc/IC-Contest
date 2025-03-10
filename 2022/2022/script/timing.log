@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : JAM
+Version: Q-2019.12
+Date   : Mon Mar 10 22:46:48 2025
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: label_reg_3__1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: minlarge_reg_1_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  JAM                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  label_reg_3__1_/CK (DFFSX1)              0.00       0.50 r
+  label_reg_3__1_/QN (DFFSX1)              0.69       1.19 f
+  U682/Y (OAI21XL)                         0.54       1.72 r
+  U683/Y (OAI22XL)                         0.44       2.16 f
+  U462/Y (AOI222XL)                        1.04       3.20 r
+  U691/Y (NOR2BX1)                         0.50       3.70 r
+  U484/Y (NAND4X2)                         0.42       4.12 f
+  U539/Y (NAND2X1)                         0.65       4.77 r
+  U701/Y (NOR2BX4)                         0.28       5.05 f
+  U702/Y (CLKINVX1)                        0.34       5.38 r
+  U711/Y (OAI22XL)                         0.29       5.67 f
+  U712/Y (OAI21X1)                         0.31       5.98 r
+  U471/Y (OAI21X1)                         0.32       6.31 f
+  U585/Y (OAI22XL)                         0.56       6.87 r
+  U466/Y (OAI2BB1X1)                       0.30       7.16 f
+  U713/Y (AOI222XL)                        0.70       7.87 r
+  U714/Y (OAI21X1)                         0.38       8.25 f
+  U530/Y (OAI21X2)                         0.71       8.96 r
+  U531/Y (NAND2X1)                         0.55       9.51 f
+  U885/Y (OAI22XL)                         0.57      10.08 r
+  minlarge_reg_1_/D (DFFRX1)               0.00      10.08 r
+  data arrival time                                  10.08
+
+  clock CLK (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  minlarge_reg_1_/CK (DFFRX1)              0.00      10.40 r
+  library setup time                      -0.30      10.10
+  data required time                                 10.10
+  -----------------------------------------------------------
+  data required time                                 10.10
+  data arrival time                                 -10.08
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+1

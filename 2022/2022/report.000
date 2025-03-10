@@ -1,0 +1,17 @@
+
+FTP account:                       Bxxxxx
+
+Level:                             A
+cycle:                             403205
+Synthesis area:                    5983.335012
+
+--- RTL category---
+HDL simulator :                    vcs 
+RTL filename :                     JAM.v            
+
+--- Pre-layout gate-level ---
+gate-levelfilename:                JAM_syn.v  
+gate-level sdf filename:           JAM_syn.sdf        
+
+-----(annotation)--------------------------------------------------------
+ (optional, write down anything that you want grader know)
