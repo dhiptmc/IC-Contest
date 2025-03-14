@@ -1,0 +1,17 @@
+
+FTP account:                       Bxxxxx
+
+Level:                             A
+Object pass number :               50
+Synthesis area:                    85185.716943
+
+--- RTL category---
+HDL simulator :                    vcs 
+RTL filename :                     geofence.v            
+
+--- Pre-layout gate-level ---
+gate-levelfilename:                geofence_syn.v  
+gate-level sdf filename:           geofence_syn.sdf        
+
+-----(annotation)--------------------------------------------------------
+ (optional, write down anything that you want grader know)
