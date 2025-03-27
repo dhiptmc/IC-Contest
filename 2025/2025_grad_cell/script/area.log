@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : CONVEX
+Version: Q-2019.12
+Date   : Thu Mar 27 12:15:02 2025
+****************************************
+
+Library(s) Used:
+
+    slow (File: /cad/designkit/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db)
+
+Number of ports:                           19
+Number of nets:                         16195
+Number of cells:                        14819
+Number of combinational cells:          14068
+Number of sequential cells:               751
+Number of macros/black boxes:               0
+Number of buf/inv:                       2076
+Number of references:                     210
+
+Combinational area:             198361.559211
+Buf/Inv area:                    14984.647145
+Noncombinational area:           23705.888155
+Macro/Black Box area:                0.000000
+Net Interconnect area:         1748282.090942
+
+Total cell area:                222067.447366
+Total area:                    1970349.538308
+1

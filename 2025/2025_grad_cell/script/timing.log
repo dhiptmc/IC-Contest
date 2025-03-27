@@ -1,0 +1,77 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CONVEX
+Version: Q-2019.12
+Date   : Thu Mar 27 12:15:02 2025
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: counter1_reg_3_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: test2_reg_19_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CONVEX             tsmc13_wl10           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  counter1_reg_3_/CK (DFFRX4)                             0.00       0.50 r
+  counter1_reg_3_/Q (DFFRX4)                              0.51       1.01 f
+  U11315/Y (BUFX12)                                       0.19       1.20 f
+  U6820/Y (NOR2X6)                                        0.12       1.32 r
+  U7604/Y (NAND2X6)                                       0.12       1.44 f
+  U13409/Y (BUFX20)                                       0.22       1.66 f
+  U15017/Y (OAI22XL)                                      0.53       2.19 r
+  U6922/Y (NOR4X1)                                        0.26       2.45 f
+  U9980/Y (NAND3X2)                                       0.25       2.70 r
+  U15019/Y (NOR2X2)                                       0.17       2.87 f
+  U15020/Y (INVX1)                                        0.29       3.16 r
+  U15044/Y (NAND2X1)                                      0.23       3.39 f
+  U15045/Y (XNOR2X4)                                      0.23       3.62 r
+  U5671/Y (BUFX8)                                         0.20       3.83 r
+  U15984/Y (XNOR2X1)                                      0.28       4.10 f
+  U15985/Y (OAI22X1)                                      0.35       4.45 r
+  U16156/S (ADDFX1)                                       0.53       4.98 f
+  U16168/CO (ADDFHX2)                                     0.43       5.41 f
+  U17148/CO (ADDFHX4)                                     0.25       5.66 f
+  U17153/CO (ADDFHX4)                                     0.27       5.92 f
+  U5186/Y (NAND2X6)                                       0.07       5.99 r
+  U11758/Y (NAND3X4)                                      0.12       6.12 f
+  DP_OP_2522_143_4969_U941/S (CMPR42X2)                   0.33       6.45 f
+  DP_OP_2522_143_4969_U940/S (CMPR42X2)                   0.75       7.20 f
+  U8493/Y (NOR2X8)                                        0.15       7.35 r
+  U7099/Y (NOR2X4)                                        0.12       7.47 f
+  U8484/Y (AOI21X4)                                       0.19       7.65 r
+  U8483/Y (NAND2X8)                                       0.15       7.80 f
+  U9269/Y (AOI21X4)                                       0.14       7.94 r
+  U11551/Y (XNOR2X4)                                      0.15       8.10 f
+  U11550/Y (OAI22X4)                                      0.12       8.21 r
+  test2_reg_19_/D (DFFRX2)                                0.00       8.21 r
+  data arrival time                                                  8.21
+
+  clock CLK (rise edge)                                   8.00       8.00
+  clock network delay (ideal)                             0.50       8.50
+  clock uncertainty                                      -0.10       8.40
+  test2_reg_19_/CK (DFFRX2)                               0.00       8.40 r
+  library setup time                                     -0.19       8.21
+  data required time                                                 8.21
+  --------------------------------------------------------------------------
+  data required time                                                 8.21
+  data arrival time                                                 -8.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

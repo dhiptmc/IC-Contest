@@ -1,0 +1,18 @@
+
+FTP account:                       B25xxx
+
+Level:                             A
+Synthesis area:                    222067.447366
+Total cycles:                      1748+1847+1792=5387
+Total error points:                0
+
+--- RTL category---
+HDL simulator :                    vcs
+RTL filename :                     CONVEX.v 
+
+--- Pre-layout gate-level ---
+gate-levelfilename:                CONVEX_syn.v  
+gate-level sdf filename:           CONVEX_syn.sdf        
+
+-----(annotation)--------------------------------------------------------
+ (optional, write down anything that you want raters know)
