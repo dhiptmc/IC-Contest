@@ -1,0 +1,15 @@
+ftp帳號(FTP number): 
+
+完成模擬之測試樣本等級(level of test pattern): A
+
+--- RTL category---
+使用之HDL模擬器名稱(HDL simulator ): vcs  
+RTL檔案名稱(RTL filename): huffman.v            
+
+--- Pre-layout gate-level ---
+gate-level檔案名稱(gate_level filename): huffman_syn.v   
+gate-level sdf filename: huffman _syn.sdf                    
+design compiler合成資料庫(dc library): huffman _syn.ddc     
+
+-----注意事項(annotation)--------------------------------------------------------
+ (其餘注意事項依各參賽隊伍的需求填寫)
